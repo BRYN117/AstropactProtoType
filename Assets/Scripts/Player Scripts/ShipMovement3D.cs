@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ShipMovement3D : MonoBehaviour
 {
@@ -11,6 +11,7 @@ public class ShipMovement3D : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.useGravity = false;
+        rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
     void FixedUpdate()
@@ -24,13 +25,17 @@ public class ShipMovement3D : MonoBehaviour
         {
             inputDir.Normalize();
 
-            // MOVEMENT THAT COLLIDES PROPERLY
+            // Movement
             Vector3 targetPos = rb.position + inputDir * moveSpeed * Time.fixedDeltaTime;
             rb.MovePosition(targetPos);
 
-            // ROTATION
+            // Rotation
             Quaternion targetRot = Quaternion.LookRotation(inputDir, Vector3.up);
             rb.MoveRotation(Quaternion.RotateTowards(rb.rotation, targetRot, rotateSpeed * Time.fixedDeltaTime));
         }
+
+        //Absolutely prevents drifting from physics impulses
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
     }
 }

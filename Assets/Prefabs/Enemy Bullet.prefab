@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b13608318d7398641b0632d51b8dca19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
-  speed: 30
-  lifeTime: 3
+  speed: 500
+  lifeTime: 8
   damage: 1
   moveDir: {x: 0, y: 0, z: 0}

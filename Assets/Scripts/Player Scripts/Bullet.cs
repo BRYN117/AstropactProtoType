@@ -13,12 +13,13 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
+        // Move forward
         transform.position += transform.forward * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        // Hit asteroid?
+        // --- Hit Asteroid ---
         Asteroid asteroid = other.GetComponent<Asteroid>();
         if (asteroid != null)
         {
@@ -27,7 +28,7 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        // Hit enemy?
+        // --- Hit Enemy ---
         EnemyHealth enemy = other.GetComponent<EnemyHealth>();
         if (enemy != null)
         {
@@ -36,7 +37,7 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        // Optional: if bullet hits walls, just destroy it
+        // --- Prevent bullets from passing through walls ---
         if (other.CompareTag("Wall"))
         {
             Destroy(gameObject);
