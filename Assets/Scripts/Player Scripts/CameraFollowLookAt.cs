@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollowLookAt : MonoBehaviour
 {
-    public Transform target;       // Your player
+    public Transform target;       //Player
     public Vector3 offset;         // Camera position relative to player
 
     void LateUpdate()

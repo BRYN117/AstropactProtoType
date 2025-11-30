@@ -53,7 +53,7 @@ public class ShipShooting : MonoBehaviour
             Quaternion.LookRotation(direction)
         );
 
-        // <-- PLAY SOUND HERE
+        // PLAY SOUND HERE
         if (audioSource != null)
             audioSource.Play();
     }

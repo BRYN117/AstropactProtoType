@@ -139,7 +139,7 @@ public class SpawnerManager : MonoBehaviour
         return new Vector3(x, spawnY, z);
     }
 
-    // ⭐ 100% SAFE SPAWN POSITION
+    // 100% SAFE SPAWN POSITION
     Vector3 GetSafeSpawnPosition()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
