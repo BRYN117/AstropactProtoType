@@ -16,7 +16,6 @@ public class SpawnerManager : MonoBehaviour
     public int maxWaves = 5;
 
     public float timeBetweenWaves = 4f;
-
     public int baseAsteroidCount = 5;
     public int baseEnemyCount = 1;
 
@@ -25,17 +24,20 @@ public class SpawnerManager : MonoBehaviour
     public float enemySpawnDelay = 0.5f;
 
     [Header("Spawn Safety")]
-    public float safeDistanceFromPlayer = 12f; // recommended value
+    public float safeDistanceFromPlayer = 12f;
 
     private float spawnY = 5f;
 
-    // Endless mode
+    // Endless mode parameters
     private bool endlessMode = false;
     private int endlessDifficulty = 1;
     private float endlessSpawnInterval = 10f;
 
     void Start()
     {
+        // Update UI for the first wave
+        WaveUIManager.instance.SetWave(currentWave);
+
         StartCoroutine(WaveRoutine());
     }
 
@@ -43,13 +45,18 @@ public class SpawnerManager : MonoBehaviour
     {
         while (currentWave <= maxWaves)
         {
+            // Update wave UI
+            WaveUIManager.instance.SetWave(currentWave);
+
             Debug.Log("Starting Wave " + currentWave);
 
+            // Spawn wave (one by one with delays)
             yield return StartCoroutine(SpawnWave(currentWave));
 
+            // Wait until all enemies and asteroids are destroyed
             yield return new WaitUntil(() =>
-                GameObject.FindObjectsOfType<Asteroid>().Length == 0 &&
-                GameObject.FindObjectsOfType<EnemyHealth>().Length == 0
+                FindObjectsOfType<Asteroid>().Length == 0 &&
+                FindObjectsOfType<EnemyHealth>().Length == 0
             );
 
             Debug.Log("Wave " + currentWave + " Cleared!");
@@ -59,8 +66,11 @@ public class SpawnerManager : MonoBehaviour
             currentWave++;
         }
 
-        Debug.Log("ALL WAVES COMPLETE — ENTERING ENDLESS MODE!");
+        // All waves finished → start Endless Mode
         endlessMode = true;
+        WaveUIManager.instance.SetEndless();
+
+        Debug.Log("ALL WAVES COMPLETE — ENTERING ENDLESS MODE!");
         StartCoroutine(EndlessMode());
     }
 
@@ -70,12 +80,14 @@ public class SpawnerManager : MonoBehaviour
         {
             Debug.Log("ENDLESS MODE SPAWN — Difficulty: " + endlessDifficulty);
 
+            // Spawn enemies slowly
             for (int i = 0; i < endlessDifficulty; i++)
             {
                 SpawnEnemy();
                 yield return new WaitForSeconds(enemySpawnDelay);
             }
 
+            // Spawn asteroids slowly
             for (int i = 0; i < endlessDifficulty; i++)
             {
                 SpawnAsteroid();
@@ -92,12 +104,14 @@ public class SpawnerManager : MonoBehaviour
         int asteroidCount = baseAsteroidCount + (waveIndex * 2);
         int enemyCount = baseEnemyCount + (waveIndex - 1);
 
+        // Spawn asteroids one-by-one
         for (int i = 0; i < asteroidCount; i++)
         {
             SpawnAsteroid();
             yield return new WaitForSeconds(asteroidSpawnDelay);
         }
 
+        // Spawn enemies one-by-one
         for (int i = 0; i < enemyCount; i++)
         {
             SpawnEnemy();
@@ -110,10 +124,10 @@ public class SpawnerManager : MonoBehaviour
         Vector3 pos = GetSafeSpawnPosition();
 
         int pick = Random.Range(0, 3);
-        GameObject prefab = smallAsteroid;
-
-        if (pick == 1) prefab = mediumAsteroid;
-        if (pick == 2) prefab = largeAsteroid;
+        GameObject prefab =
+            pick == 0 ? smallAsteroid :
+            pick == 1 ? mediumAsteroid :
+                        largeAsteroid;
 
         Instantiate(prefab, pos, Quaternion.identity);
     }
@@ -131,6 +145,7 @@ public class SpawnerManager : MonoBehaviour
         float x = Random.Range(-border, border);
         float z = Random.Range(-border, border);
 
+        // Snap to edges for cleaner spawning
         if (Random.value < 0.5f)
             x = (Random.value < 0.5f) ? -border : border;
         else
@@ -139,7 +154,7 @@ public class SpawnerManager : MonoBehaviour
         return new Vector3(x, spawnY, z);
     }
 
-    // 100% SAFE SPAWN POSITION
+    // Returns a spawn point that avoids the player and overlapping objects
     Vector3 GetSafeSpawnPosition()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -148,15 +163,16 @@ public class SpawnerManager : MonoBehaviour
 
         Vector3 playerPos = player.transform.position;
 
+        // Try up to 40 safe spawn attempts
         for (int i = 0; i < 40; i++)
         {
             Vector3 pos = GetRandomSpawnPosition();
 
-            // Distance check
+            // Check distance from player
             if (Vector3.Distance(pos, playerPos) < safeDistanceFromPlayer)
                 continue;
 
-            // Physics overlap check to avoid objects on top of each other
+            // Check if something is already at this position
             Collider[] hits = Physics.OverlapSphere(pos, 3f);
             bool blocked = false;
 
@@ -175,7 +191,7 @@ public class SpawnerManager : MonoBehaviour
             return pos;
         }
 
-        // Fallback if no good position found
+        // Fallback if no safe position is found
         Vector3 fallback = GetRandomSpawnPosition();
         Vector3 awayDir = (fallback - playerPos).normalized;
 

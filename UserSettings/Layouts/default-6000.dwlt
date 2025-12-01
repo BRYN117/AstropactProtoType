@@ -419,9 +419,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 645f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffff
+      m_ExpandedIDs: a6fbfcffbefbfcffa844fdffce44fdff9c48fdff808ffdffb6e7feffe05effff9cafffff16fbffff1e080100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -997,9 +997,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.8693438, y: -426.03525, z: 356.7439}
+    m_Target: {x: 164.41951, y: -560.12866, z: 379.2697}
     speed: 2
-    m_Value: {x: -3.8693438, y: -426.03525, z: 356.7439}
+    m_Value: {x: 164.41951, y: -560.12866, z: 379.2697}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1045,13 +1045,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.4118331, y: 0.018732077, z: -0.007713005, w: 0.91105217}
+    m_Target: {x: 0.44446346, y: 0.1814852, z: -0.09167277, w: 0.87243855}
     speed: 2
-    m_Value: {x: 0.41182634, y: 0.01873177, z: -0.0077128783, w: 0.9110372}
+    m_Value: {x: 0.44445515, y: 0.18148181, z: -0.09167106, w: 0.8724222}
   m_Size:
-    m_Target: 297.31226
+    m_Target: 363.80716
     speed: 2
-    m_Value: 297.31226
+    m_Value: 363.80716
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1069,7 +1069,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0019334345, y: 0.9855566, z: -0.16871731, w: -0.01534419}
+  m_LastSceneViewRotation: {x: 0.4132298, y: -0.011328583, z: 0.0058962223, w: 0.91055536}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 14}
@@ -1132,7 +1132,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1142,15 +1142,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Projects\AstropactProtoType
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa040100
-    m_LastClickedID: 66730
+    m_SelectedIDs: 2c040100
+    m_LastClickedID: 66604
     m_ExpandedIDs: 00000000220401002404010026040100280401002a0401002c0401002e04010030040100320401003404010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "E:\\Projects\\AstropactProtoType\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\player scripts\\camerafollowlookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\enemy scripts\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|e:\\projects\\astropactprototype\\assets\\scripts\\player scripts\\waveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\waveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|e:\\projects\\astropactprototype\\assets\\scripts\\player scripts\\camerafollowlookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\camerafollowlookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\shipmovement3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|e:\\projects\\astropactprototype\\assets\\scripts\\player scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\player scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|e:\\projects\\astropactprototype\\assets\\scripts\\player scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\player scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,15 +59,11 @@
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu scripts\\gameplaymusiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\enemy scripts\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\enemy scripts\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|e:\\projects\\astropactprototype\\assets\\scripts\\enemy scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|E:\\Projects\\AstropactProtoType\\assets\\scripts\\enemy scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147A0912-11A4-D3B0-0202-3A96071E12E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,24 +118,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
-              "ToolTip": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WaveUIManager.cs",
+              "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\WaveUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\WaveUIManager.cs",
+              "ToolTip": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\WaveUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\WaveUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T21:58:28.344Z",
+              "WhenOpened": "2025-12-01T00:03:01.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameTimer.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\GameTimer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\GameTimer.cs",
@@ -139,12 +143,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\GameTimer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T21:58:23.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T21:58:23.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Menu Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\MenuManager.cs",
@@ -152,12 +155,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\MenuManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T09:35:38.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T09:35:38.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "GameplayMusicController.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Menu Scripts\\GameplayMusicController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\GameplayMusicController.cs",
@@ -165,12 +167,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\GameplayMusicController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T09:35:05.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T09:35:05.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PersistentGameplayMusic.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Menu Scripts\\PersistentGameplayMusic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\PersistentGameplayMusic.cs",
@@ -178,12 +179,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\PersistentGameplayMusic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T09:27:43.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T09:27:43.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PauseManager.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Menu Scripts\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\PauseManager.cs",
@@ -191,12 +191,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\PauseManager.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:04:58.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T20:04:58.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Bullet.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Bullet.cs",
@@ -204,12 +203,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Bullet.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T22:38:43.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T22:38:43.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CameraFollowLookAt.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\CameraFollowLookAt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\CameraFollowLookAt.cs",
@@ -222,7 +220,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SpawnerManager.cs",
+              "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
+              "ToolTip": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAcwCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T09:47:38.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
+              "ToolTip": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T21:58:28.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ShipMovement3D.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ShipMovement3D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ShipMovement3D.cs",
@@ -230,12 +253,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ShipMovement3D.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T00:17:58.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T00:17:58.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ShipShooting.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\ShipShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ShipShooting.cs",
@@ -243,25 +265,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ShipShooting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T22:38:40.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T22:38:40.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SpawnerManager.cs",
-              "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
-              "ToolTip": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\SpawnerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T09:47:38.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EnemyTurret.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\EnemyTurret.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\EnemyTurret.cs",
@@ -269,12 +277,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\EnemyTurret.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:46:41.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:46:41.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerHealth.cs",
@@ -282,12 +289,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T02:14:54.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T02:14:54.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameOverManager.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\GameOverManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\GameOverManager.cs",
@@ -295,12 +301,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\GameOverManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T09:29:12.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T09:29:12.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\EnemyHealth.cs",
@@ -308,12 +313,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\EnemyHealth.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:08:50.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T20:08:50.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EnemyBullet.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\EnemyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\EnemyBullet.cs",
@@ -321,12 +325,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\EnemyBullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:13:37.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T03:13:37.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Asteroid.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\Asteroid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Asteroid.cs",
@@ -334,12 +337,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Asteroid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T01:51:14.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:51:14.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EnemyShooter.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\EnemyShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\EnemyShooter.cs",
@@ -351,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AsteroidHover.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Enemy Scripts\\AsteroidHover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\AsteroidHover.cs",
@@ -363,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "TopDownCameraFollow.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\TopDownCameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\TopDownCameraFollow.cs",
@@ -375,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CameraAnchorFollow.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\CameraAnchorFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\CameraAnchorFollow.cs",
@@ -387,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TestLookAt.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\TestLookAt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestLookAt.cs",
@@ -398,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerController.cs",
@@ -410,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PlayerHover.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\PlayerHover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerHover.cs",
@@ -422,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\CameraFollow.cs",
@@ -433,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "HoverShipController.cs",
               "DocumentMoniker": "E:\\Projects\\AstropactProtoType\\Assets\\Scripts\\Player Scripts\\HoverShipController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\HoverShipController.cs",
